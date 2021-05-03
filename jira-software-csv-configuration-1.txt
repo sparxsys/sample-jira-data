@@ -1,0 +1,119 @@
+{
+  "config.version" : "2.0",
+  "config.project.from.csv" : "true",
+  "config.encoding" : "UTF-8",
+  "config.file.id" : "6fb6c810-9772-46c8-8466-f2aef9fd67c2",
+  "config.email.suffix" : "@",
+  "config.file.name" : "jira-software-data.csv",
+  "config.field.mappings" : {
+    "Status" : {
+      "jira.field" : "status",
+      "userChanged" : "false",
+      "manualMapping" : "true"
+    },
+    "Project name" : {
+      "jira.field" : "project.name",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Description" : {
+      "jira.field" : "description",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Parent id" : {
+      "jira.field" : "subtask-parent-id",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Priority" : {
+      "jira.field" : "priority",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Labels" : {
+      "jira.field" : "labels",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Due date" : {
+      "jira.field" : "duedate",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Epic Link" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10014"
+    },
+    "Created" : {
+      "jira.field" : "created",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Issue Type" : {
+      "jira.field" : "issuetype",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Project key" : {
+      "jira.field" : "project.key",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Project type" : {
+      "jira.field" : "project.type",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Summary" : {
+      "jira.field" : "summary",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Environment" : {
+      "jira.field" : "environment",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Resolved" : {
+      "jira.field" : "resolutiondate",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Issue id" : {
+      "jira.field" : "issue-id",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Epic Name" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10011"
+    },
+    "Resolution" : {
+      "jira.field" : "resolution",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    }
+  },
+  "config.csv.file.id" : null,
+  "config.value.mappings" : {
+    "Status" : {
+      "To Do" : "10000",
+      "Done" : "10001",
+      "On Hold" : "10023",
+      "In Progress" : "3"
+    }
+  },
+  "config.delimiter" : ",",
+  "config.project" : {
+    "project.type" : null,
+    "project.key" : "",
+    "project.description" : null,
+    "project.url" : null,
+    "project.name" : "",
+    "project.lead" : null
+  },
+  "config.date.format" : "dd/MMM/yy h:mm a"
+}
